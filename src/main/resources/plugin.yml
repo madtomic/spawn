@@ -1,0 +1,18 @@
+name: ${artifactId}
+main: ${groupId}.${artifactId}
+author: Maxim Varentsov <admin@gtn-craft.ru>
+version: ${version}
+
+permissions:
+    spawn.set:
+        description: Установка точки спавна в мире.
+        default: op
+    spawn.use:
+        default: true
+commands:
+  setspawn:
+     description: Установка точки спавна в мире.
+     permission: spawn.set
+  spawn:
+     description: Телепортирование на точку спавна.
+     permission: spawn.use
