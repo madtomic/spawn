@@ -18,7 +18,6 @@ import java.io.File;
 import java.io.IOException;
 
 public final class Spawn extends JavaPlugin implements Listener {
-
     @Override
     public void onEnable() {
         saveDefaultConfig();
