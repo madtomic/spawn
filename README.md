@@ -1,4 +1,4 @@
 spawn
 =====
 
-Simplle spawn plugin, save pith,yaw per world
+Bukkit spawn/setspawn, multiworld plugin, save yaw and pitch.
