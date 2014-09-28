@@ -30,10 +30,10 @@ public final class Spawn extends JavaPlugin implements Listener {
                     Location location = player.getLocation();
                     try {
                         setSpawn(location);
+                        player.sendMessage(ChatColor.GREEN + "Spawnpoint set at you current location.");
                     } catch (IOException ex) {
                         getLogger().severe(ex.getMessage());
                     }
-                    player.sendMessage(ChatColor.GREEN + "Spawnpoint set at you current location.");
                 }
                 return true;
             }
